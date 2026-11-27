@@ -1,5 +1,8 @@
 package SpringCore1;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class TelegramService implements Notification{
 
     @Override
